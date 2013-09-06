@@ -1,0 +1,30 @@
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Debug\Background.png
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Debug\AppManifest.xaml
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Debug\workout7.xap
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Debug\JeffWilcox.PhoneThemeManager.dll
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Debug\JeffWilcox.PhoneThemeManager.pdb
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Debug\App.g.cs
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Debug\MainPage.g.cs
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Debug\About.g.cs
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Debug\XapCacheFile.xml
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Debug\Workout 7.dll
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Debug\Workout 7.pdb
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Debug\Workout 7.g.resources
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Debug\Workout 7.dll
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Debug\Workout 7.pdb
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Debug\workout7.csprojResolveAssemblyReference.cache
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Debug\Background.png
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Debug\Workout 7.dll
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Debug\Workout 7.pdb
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Debug\AppManifest.xaml
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Debug\workout7.xap
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Debug\JeffWilcox.PhoneThemeManager.dll
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Debug\JeffWilcox.PhoneThemeManager.pdb
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\workout7.csprojResolveAssemblyReference.cache
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\App.g.cs
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\MainPage.g.cs
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\About.g.cs
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\Workout 7.g.resources
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\Workout 7.dll
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\Workout 7.pdb
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\XapCacheFile.xml

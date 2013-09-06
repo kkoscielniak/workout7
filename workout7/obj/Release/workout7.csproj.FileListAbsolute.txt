@@ -1,0 +1,28 @@
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Release\Background.png
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Release\Workout 7.dll
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Release\Workout 7.pdb
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Release\AppManifest.xaml
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Release\workout7.xap
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Release\JeffWilcox.PhoneThemeManager.dll
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\Bin\Release\JeffWilcox.PhoneThemeManager.pdb
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Release\App.g.cs
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Release\MainPage.g.cs
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Release\About.g.cs
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Release\Workout 7.g.resources
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Release\Workout 7.dll
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Release\Workout 7.pdb
+C:\Users\Krystian\documents\visual studio 2012\Projects\workout7\workout7\obj\Release\XapCacheFile.xml
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Release\Background.png
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Release\Workout 7.dll
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Release\Workout 7.pdb
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Release\AppManifest.xaml
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Release\workout7.xap
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Release\JeffWilcox.PhoneThemeManager.dll
+C:\Users\Krystian\Desktop\workout7\workout7\Bin\Release\JeffWilcox.PhoneThemeManager.pdb
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\App.g.cs
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\MainPage.g.cs
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\About.g.cs
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\Workout 7.g.resources
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\Workout 7.dll
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\Workout 7.pdb
+C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\XapCacheFile.xml
