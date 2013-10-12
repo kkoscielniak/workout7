@@ -26,3 +26,7 @@ C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\Workout 7.g.resources
 C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\Workout 7.dll
 C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\Workout 7.pdb
 C:\Users\Krystian\Desktop\workout7\workout7\obj\Release\XapCacheFile.xml
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Release\Mangopollo.Light.dll
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Release\Controls\FeedbackOverlay.g.cs
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Release\workout7.Resources.AppResources.resources
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Release\workout7.csproj.GenerateResource.Cache

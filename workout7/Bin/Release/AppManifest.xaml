@@ -2,5 +2,6 @@
   <Deployment.Parts>
     <AssemblyPart x:Name="Workout 7" Source="Workout 7.dll" />
     <AssemblyPart x:Name="JeffWilcox.PhoneThemeManager" Source="JeffWilcox.PhoneThemeManager.dll" />
+    <AssemblyPart x:Name="Mangopollo.Light" Source="Mangopollo.Light.dll" />
   </Deployment.Parts>
 </Deployment>
