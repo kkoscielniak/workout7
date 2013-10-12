@@ -31,6 +31,7 @@ namespace workout7
         private int exerciseIndex;
         private readonly string[] exerciseNames;
         private readonly string[] imageNames;
+        private readonly bool[] switchSides;
 
         enum Activity
         {
@@ -44,6 +45,7 @@ namespace workout7
         private Stream stream;
         private SoundEffect soundTick;
         private SoundEffect soundBeep;
+        private SoundEffect soundSwitch;
 
         // Constructor
         public MainPage()
@@ -63,6 +65,22 @@ namespace workout7
                 "lunge",
                 "push up and rotation",
                 "side plank"
+            };
+
+            this.switchSides = new bool[]
+            {
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                true,
+                true
             };
 
             this.imageNames = new string[] {
@@ -88,6 +106,13 @@ namespace workout7
             stream = TitleContainer.OpenStream("Sounds/Beep.wav");
             soundBeep = SoundEffect.FromStream(stream);
             FrameworkDispatcher.Update();
+
+            stream = TitleContainer.OpenStream("Sounds/Switch.wav");
+            soundSwitch = SoundEffect.FromStream(stream);
+            FrameworkDispatcher.Update();
+
+            stream.Close();
+
             
             currentActivity = Activity.GettingReady;
 
@@ -102,7 +127,7 @@ namespace workout7
 
         ~MainPage()
         {
-            stream.Close();
+           // stream.Close();
             this.dispatcherTimer = null;
             PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Enabled;
         }
@@ -155,6 +180,7 @@ namespace workout7
                         this.image.Source = new BitmapImage(new Uri("Images/" + this.imageNames[this.exerciseIndex],
                             UriKind.Relative));
                         this.lTimer.Text = "00:30";
+                        
                         this.soundBeep.Play();
                         break;
 
@@ -220,6 +246,8 @@ namespace workout7
             if (this.currentActivity == Activity.Exercise)
             {
                 if (tmps.Seconds+1 != 30 && tmps.Seconds+1 != 0) this.soundTick.Play();
+                
+                if (this.switchSides[this.exerciseIndex] == true && tmps.Seconds == 15) this.soundSwitch.Play();
             }
 
             if (tmps <= TimeSpan.Zero)
@@ -250,7 +278,7 @@ namespace workout7
         private void appbarStartWorkoutClick(object sender, EventArgs e)
         {
             this.timerLocked = false;
-            this.exerciseIndex = 0;
+            this.exerciseIndex = 10;
             this.currentActivity = Activity.GettingReady;
             this.NextActivity();
         }

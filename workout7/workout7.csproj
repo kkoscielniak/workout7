@@ -132,6 +132,7 @@
     <Content Include="Images\tile.medium.png" />
     <Content Include="Images\tile.wide.png" />
     <Content Include="Sounds\Beep.wav" />
+    <Content Include="Sounds\Switch.wav" />
     <Content Include="Sounds\Tick.wav" />
     <Content Include="SplashScreenImage.jpg" />
   </ItemGroup>

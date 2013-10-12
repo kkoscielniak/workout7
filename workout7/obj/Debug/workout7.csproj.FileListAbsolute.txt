@@ -31,3 +31,4 @@ C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\De
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\Workout 7.dll
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\Workout 7.pdb
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\XapCacheFile.xml
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\workout7.csprojResolveAssemblyReference.cache
