@@ -139,7 +139,7 @@ namespace workout7
                         
                         /* font size manipulation. Tricky, but works.
                         */
-                        this.lExercise.FontSize = 72;
+                       /* this.lExercise.FontSize = 48;
                         if (this.exerciseNames[this.exerciseIndex].Length > 15)
                         {
                             this.lExercise.FontSize = 56;
@@ -149,7 +149,7 @@ namespace workout7
                         if (this.exerciseNames[this.exerciseIndex].Length > 19)
                         {
                             this.lExercise.FontSize = 48;
-                        }
+                        }*/
 
                         this.lExercise.Text = this.exerciseNames[this.exerciseIndex];
                         this.image.Source = new BitmapImage(new Uri("Images/" + this.imageNames[this.exerciseIndex],
@@ -162,7 +162,7 @@ namespace workout7
                      * and the label to combined "rest" word [...]
                      */
                     case Activity.Rest:
-                        this.lExercise.FontSize = 72;
+                       // this.lExercise.FontSize = 72;
                         if (this.exerciseIndex < TOTAL_EXERCISES - 1)
                         {
                             this.timeSpan = new TimeSpan(0, 0, 10);

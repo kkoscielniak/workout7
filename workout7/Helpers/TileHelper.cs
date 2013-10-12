@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
+﻿using Mangopollo;
 using Mangopollo.Tiles;
-using Mangopollo;
 using Microsoft.Phone.Shell;
+using System;
 using System.Diagnostics;
+using System.Linq;
 using workout7.Resources;
 
 namespace workout7.Helpers
