@@ -13,6 +13,14 @@ C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\Workout 7.g.resources
 C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\Workout 7.dll
 C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\Workout 7.pdb
 C:\Users\Krystian\Desktop\workout7\workout7\obj\Debug\XapCacheFile.xml
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\Background.png
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\Workout 7.dll
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\Workout 7.pdb
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\AppManifest.xaml
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\workout7.xap
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\JeffWilcox.PhoneThemeManager.dll
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\Mangopollo.Light.dll
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\JeffWilcox.PhoneThemeManager.pdb
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\App.g.cs
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\Controls\FeedbackOverlay.g.cs
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\MainPage.g.cs
@@ -20,13 +28,6 @@ C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\De
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\Workout 7.g.resources
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\workout7.Resources.AppResources.resources
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\workout7.csproj.GenerateResource.Cache
-C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\Background.png
-C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\Workout 7.dll
-C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\Workout 7.pdb
-C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\AppManifest.xaml
-C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\workout7.xap
-C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\JeffWilcox.PhoneThemeManager.dll
-C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Debug\JeffWilcox.PhoneThemeManager.pdb
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\Workout 7.dll
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\Workout 7.pdb
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Debug\XapCacheFile.xml

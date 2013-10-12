@@ -50,6 +50,9 @@
     <Reference Include="JeffWilcox.PhoneThemeManager">
       <HintPath>..\packages\PhoneThemeManager.1.4\lib\sl4-windowsphone71\JeffWilcox.PhoneThemeManager.dll</HintPath>
     </Reference>
+    <Reference Include="Mangopollo.Light">
+      <HintPath>..\packages\Mangopollo.Light.1.3\lib\sl4-windowsphone71\Mangopollo.Light.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Phone.Interop" />
     <Reference Include="Microsoft.Xna.Framework" />
@@ -69,6 +72,7 @@
     </Compile>
     <Compile Include="Helpers\FeedbackHelper.cs" />
     <Compile Include="Helpers\StorageHelper.cs" />
+    <Compile Include="Helpers\TileHelper.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -109,7 +113,7 @@
     <Content Include="Background.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="ApplicationIcon.png" />
+    <Content Include="Images\icon.appicon.png" />
     <Content Include="Images\appbar.timer.play.png" />
     <Content Include="Images\exercise.crunch.png" />
     <Content Include="Images\exercise.jacks.png" />
@@ -125,6 +129,8 @@
     <Content Include="Images\exercise.wall-sit.png" />
     <Content Include="Images\main.png" />
     <Content Include="Images\rest.png" />
+    <Content Include="Images\tile.medium.png" />
+    <Content Include="Images\tile.wide.png" />
     <Content Include="Sounds\Beep.wav" />
     <Content Include="Sounds\Tick.wav" />
     <Content Include="SplashScreenImage.jpg" />

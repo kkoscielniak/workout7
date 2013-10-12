@@ -12,7 +12,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-
 using workout7.Helpers;
 
 namespace workout7
@@ -68,6 +67,7 @@ namespace workout7
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
             FeedbackHelper.Default.Launching();
+            TileManager.UpdatePrimaryTile();
         }
 
         // Code to execute when the application is activated (brought to foreground)
