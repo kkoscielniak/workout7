@@ -12,7 +12,8 @@
     Foreground="{x:Null}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     shell:SystemTray.IsVisible="False" 
-    Background="White">
+    Background="White"
+    xmlns:ctrl="clr-namespace:workout7.Controls">
    
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot">
@@ -28,10 +29,11 @@
         </StackPanel>
         <StackPanel x:Name="ContentPanel" Margin="12,0,10,10" Grid.Row="1" Background="Transparent">
             <Image x:Name="image" Height="444" Source="/Images/main.png"/>
-            <TextBlock x:Name="lExercise" TextWrapping="Wrap" MinWidth="3" FontSize="72" TextAlignment="Center" VerticalAlignment="Bottom" Foreground="{StaticResource PhoneForegroundBrush}" FontFamily="Segoe UI Symbol"/>
+            <TextBlock x:Name="lExercise" TextWrapping="Wrap" MinWidth="3" FontSize="48" TextAlignment="Center" VerticalAlignment="Bottom" Foreground="{StaticResource PhoneForegroundBrush}" FontFamily="Segoe UI Symbol"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
+        <ctrl:FeedbackOverlay Grid.RowSpan="2" EnableAnimation="True" />
     </Grid>
 
     <phone:PhoneApplicationPage.ApplicationBar>

@@ -13,6 +13,8 @@ using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
+using workout7.Helpers;
+
 namespace workout7
 {
     public partial class App : Application
@@ -65,12 +67,14 @@ namespace workout7
         // This code will not execute when the application is reactivated
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+            FeedbackHelper.Default.Launching();
         }
 
         // Code to execute when the application is activated (brought to foreground)
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
+            
         }
 
         // Code to execute when the application is deactivated (sent to background)

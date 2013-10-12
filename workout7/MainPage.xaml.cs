@@ -91,8 +91,7 @@ namespace workout7
             
             currentActivity = Activity.GettingReady;
 
-            /* Prepare dispatcher Timer 
-             */
+            /* Prepare dispatcher Timer */
             if (this.dispatcherTimer == null)
             {
                 this.dispatcherTimer = new DispatcherTimer();
