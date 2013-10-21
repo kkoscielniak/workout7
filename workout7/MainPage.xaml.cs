@@ -162,20 +162,6 @@ namespace workout7
                     case Activity.Exercise:
                         this.timeSpan = new TimeSpan(0, 0, 30);
                         
-                        /* font size manipulation. Tricky, but works.
-                        */
-                       /* this.lExercise.FontSize = 48;
-                        if (this.exerciseNames[this.exerciseIndex].Length > 15)
-                        {
-                            this.lExercise.FontSize = 56;
-                        }
-                        if (this.exerciseNames[this.exerciseIndex].Length > 17)
-                            this.lExercise.FontSize = 52;
-                        if (this.exerciseNames[this.exerciseIndex].Length > 19)
-                        {
-                            this.lExercise.FontSize = 48;
-                        }*/
-
                         this.lExercise.Text = this.exerciseNames[this.exerciseIndex];
                         this.image.Source = new BitmapImage(new Uri("Images/" + this.imageNames[this.exerciseIndex],
                             UriKind.Relative));
@@ -278,7 +264,7 @@ namespace workout7
         private void appbarStartWorkoutClick(object sender, EventArgs e)
         {
             this.timerLocked = false;
-            this.exerciseIndex = 10;
+            this.exerciseIndex = 0;
             this.currentActivity = Activity.GettingReady;
             this.NextActivity();
         }

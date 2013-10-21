@@ -30,3 +30,4 @@ C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Re
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Release\Controls\FeedbackOverlay.g.cs
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Release\workout7.Resources.AppResources.resources
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Release\workout7.csproj.GenerateResource.Cache
+C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Release\AdDuplex.WindowsPhone.dll

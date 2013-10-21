@@ -1,8 +1,9 @@
-﻿<xapCache source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Release\workout7.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013-10-12 19:59:29">
-  <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-10-12 19:59:29" />
+﻿<xapCache source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Release\workout7.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013-10-21 10:15:53">
+  <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-10-21 10:15:47" />
   <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Images\tile.medium.png" archivePath="Images\tile.medium.png" lastWriteTime="2013-10-12 18:28:02" />
   <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Images\icon.appicon.png" archivePath="Images\icon.appicon.png" lastWriteTime="2013-06-25 18:46:39" />
-  <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Release\Workout 7.dll" archivePath="Workout 7.dll" lastWriteTime="2013-10-12 19:59:29" />
+  <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Release\Workout 7.dll" archivePath="Workout 7.dll" lastWriteTime="2013-10-21 10:15:53" />
+  <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\packages\AdDuplexWP7.2.7.0.3\lib\sl4-windowsphone71\AdDuplex.WindowsPhone.dll" archivePath="AdDuplex.WindowsPhone.dll" lastWriteTime="2013-10-21 09:56:24" />
   <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\packages\PhoneThemeManager.1.4\lib\sl4-windowsphone71\JeffWilcox.PhoneThemeManager.dll" archivePath="JeffWilcox.PhoneThemeManager.dll" lastWriteTime="2013-06-25 17:39:08" />
   <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\packages\Mangopollo.Light.1.3\lib\sl4-windowsphone71\Mangopollo.Light.dll" archivePath="Mangopollo.Light.dll" lastWriteTime="2013-10-12 18:30:19" />
   <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Background.png" archivePath="Background.png" lastWriteTime="2013-07-15 13:01:03" />
@@ -26,6 +27,6 @@
   <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Sounds\Switch.wav" archivePath="Sounds\Switch.wav" lastWriteTime="2013-10-12 19:23:23" />
   <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Sounds\Tick.wav" archivePath="Sounds\Tick.wav" lastWriteTime="2013-06-25 13:57:40" />
   <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2013-06-19 10:54:32" />
-  <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-10-12 19:51:17" />
+  <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-10-21 10:15:53" />
   <file source="C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Release\Background.png" archivePath="Background.png" lastWriteTime="2013-07-15 13:01:03" />
 </xapCache>
