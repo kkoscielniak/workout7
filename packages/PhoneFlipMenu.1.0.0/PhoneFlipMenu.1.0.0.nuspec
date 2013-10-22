@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>PhoneFlipMenu</id>
+    <version>1.0.0</version>
+    <title>PhoneFlipMenu Control for Windows Phone</title>
+    <authors>ScottIsAFool</authors>
+    <owners>ScottIsAFool</owners>
+    <licenseUrl>http://phoneflipmenu.codeplex.com/license</licenseUrl>
+    <projectUrl>http://phoneflipmenu.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A control that mimics the behaviour of the Email app's reply/reply all/forward menu.</description>
+    <summary>A control that mimics the behaviour of the Email app's reply/reply all/forward menu.</summary>
+    <copyright>2012 Scott Lovegrove</copyright>
+    <tags>wp7 wp7dev wpdev windows phone</tags>
+    <dependencies>
+      <dependency id="Coding4Fun.Phone.Controls.Complete" version="1.5.1" />
+    </dependencies>
+  </metadata>
+</package>

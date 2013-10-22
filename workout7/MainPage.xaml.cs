@@ -15,6 +15,8 @@ using System.Windows.Media.Imaging;
 using System.IO;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
+using ScottIsAFool.WindowsPhone.Tools;
+using workout7.Helpers;
 
 namespace workout7
 {
@@ -272,6 +274,23 @@ namespace workout7
         private void aboutMenuBarClick(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/About.xaml", UriKind.Relative));
+        }
+
+        private void SpreadTheLove_Click(object sender, EventArgs e)
+        {
+            new PhoneFlipMenu(
+                new PhoneFlipMenuAction("via sms...", () =>
+                {
+                    ShareHelper.ShareViaSMS();
+                }),
+                new PhoneFlipMenuAction("via email...", () =>
+                {
+                    ShareHelper.ShareViaEmail();
+                }),
+                new PhoneFlipMenuAction("via social networks...", () =>
+                {
+                    ShareHelper.ShareViaSocialMedia();
+                })).Show();
         }
     }
 }

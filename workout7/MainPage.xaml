@@ -44,6 +44,7 @@
         <shell:ApplicationBar BackgroundColor="Green" IsVisible="True" IsMenuEnabled="True" ForegroundColor="White">
             <shell:ApplicationBarIconButton IconUri="/Images/appbar.timer.play.png" Text="Begin workout" Click="appbarStartWorkoutClick"/>
             <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="Spread the love..." Click="SpreadTheLove_Click"/>
                 <shell:ApplicationBarMenuItem Text="About" Click="aboutMenuBarClick"/>
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
