@@ -31,3 +31,29 @@ C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Re
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Release\workout7.Resources.AppResources.resources
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\obj\Release\workout7.csproj.GenerateResource.Cache
 C:\Users\Krystian\Documents\Visual Studio 2012\Projects\Workout7\workout7\Bin\Release\AdDuplex.WindowsPhone.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\Background.png
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\Workout 7.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\Workout 7.pdb
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\AppManifest.xaml
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\workout7.xap
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\AdDuplex.WindowsPhone.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\Coding4Fun.Phone.Controls.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\Coding4Fun.Phone.Controls.Toolkit.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\JeffWilcox.PhoneThemeManager.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\Mangopollo.Light.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\PhoneFlipMenuControl.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\JeffWilcox.PhoneThemeManager.pdb
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\Microsoft.Phone.Controls.xml
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\App.g.cs
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\Controls\FeedbackOverlay.g.cs
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\MainPage.g.cs
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\About.g.cs
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\Workout 7.g.resources
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\workout7.Resources.AppResources.resources
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\workout7.csproj.GenerateResource.Cache
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\Workout 7.dll
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\Workout 7.pdb
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\XapCacheFile.xml
+C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\workout7.csprojResolveAssemblyReference.cache

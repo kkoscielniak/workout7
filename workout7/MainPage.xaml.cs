@@ -220,7 +220,7 @@ namespace workout7
 
             this.lTimer.Text = "";
             this.lExercise.Text = "";
-            this.lExercise.Inlines.Add(new Run { Text = "you've finished!", FontSize = 66 });
+            this.lExercise.Inlines.Add(new Run { Text = "you've finished!" });
             this.image.Source = new BitmapImage(new Uri("Images/main.png", UriKind.Relative));
 
             this.soundBeep.Play();
