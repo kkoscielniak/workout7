@@ -88,7 +88,7 @@
     <Compile Include="Helpers\FeedbackHelper.cs" />
     <Compile Include="Helpers\ShareHelper.cs" />
     <Compile Include="Helpers\StorageHelper.cs" />
-    <Compile Include="Helpers\TileHelper.cs" />
+    <Compile Include="Helpers\TileManager.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

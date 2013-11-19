@@ -10,7 +10,7 @@ namespace workout7.Helpers
 {
     static class TileManager
     {
-        public static void UpdatePrimaryTile(/*int count*/)
+        public static void UpdatePrimaryTile(int count)
         {
             // only if I can use WP8 tiles - update the first tile
             if (Utils.CanUseLiveTiles)
@@ -23,6 +23,11 @@ namespace workout7.Helpers
                     // tileData.Count = count;
                     tileData.BackgroundImage = new Uri("/Images/tile.medium.png", UriKind.Relative);
                     tileData.WideBackgroundImage = new Uri("/Images/tile.wide.png", UriKind.Relative);
+
+                    if (count > 0)
+                    {
+                        tileData.Count = count;
+                    }
 #if DEBUG
                     Debug.WriteLine("Activating live tile: " + Mangopollo.Utils.CanUseLiveTiles);
 #endif

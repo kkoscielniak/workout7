@@ -1,8 +1,8 @@
-﻿<xapCache source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\workout7.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013-10-22 16:53:16">
+﻿<xapCache source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\workout7.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2013-11-19 18:29:49">
   <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2013-10-21 10:15:47" />
   <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Images\tile.medium.png" archivePath="Images\tile.medium.png" lastWriteTime="2013-10-12 18:28:02" />
   <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Images\icon.appicon.png" archivePath="Images\icon.appicon.png" lastWriteTime="2013-06-25 18:46:39" />
-  <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\Workout 7.dll" archivePath="Workout 7.dll" lastWriteTime="2013-10-22 16:53:15" />
+  <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\obj\Release\Workout 7.dll" archivePath="Workout 7.dll" lastWriteTime="2013-11-19 18:29:48" />
   <file source="C:\Users\Krystian\Documents\GitHub\workout_7\packages\AdDuplexWP7.2.7.0.3\lib\sl4-windowsphone71\AdDuplex.WindowsPhone.dll" archivePath="AdDuplex.WindowsPhone.dll" lastWriteTime="2013-10-21 09:56:24" />
   <file source="C:\Users\Krystian\Documents\GitHub\workout_7\packages\Coding4Fun.Phone.Controls.Complete.1.5.6\lib\sl4-windowsphone71\Coding4Fun.Phone.Controls.dll" archivePath="Coding4Fun.Phone.Controls.dll" lastWriteTime="2013-10-22 16:15:11" />
   <file source="C:\Users\Krystian\Documents\GitHub\workout_7\packages\Coding4Fun.Phone.Controls.Complete.1.5.6\lib\sl4-windowsphone71\Coding4Fun.Phone.Controls.Toolkit.dll" archivePath="Coding4Fun.Phone.Controls.Toolkit.dll" lastWriteTime="2013-10-22 16:15:11" />
@@ -32,6 +32,6 @@
   <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Sounds\Switch.wav" archivePath="Sounds\Switch.wav" lastWriteTime="2013-10-12 19:23:23" />
   <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Sounds\Tick.wav" archivePath="Sounds\Tick.wav" lastWriteTime="2013-06-25 13:57:40" />
   <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2013-06-19 10:54:32" />
-  <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-10-22 16:39:02" />
+  <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2013-11-19 18:29:49" />
   <file source="C:\Users\Krystian\Documents\GitHub\workout_7\workout7\Bin\Release\Background.png" archivePath="Background.png" lastWriteTime="2013-07-15 13:01:03" />
 </xapCache>

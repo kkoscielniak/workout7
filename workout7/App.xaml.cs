@@ -67,7 +67,7 @@ namespace workout7
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
             FeedbackHelper.Default.Launching();
-            TileManager.UpdatePrimaryTile();
+            // TileManager.UpdatePrimaryTile(0)
         }
 
         // Code to execute when the application is activated (brought to foreground)

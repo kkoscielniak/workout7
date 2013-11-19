@@ -17,6 +17,8 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using ScottIsAFool.WindowsPhone.Tools;
 using workout7.Helpers;
+using System.IO.IsolatedStorage;
+using System.Diagnostics;
 
 namespace workout7
 {
@@ -35,6 +37,9 @@ namespace workout7
         private readonly string[] imageNames;
         private readonly bool[] switchSides;
 
+        private int streakCounter;
+        // private DateTimeOffset offset = DateTime.Parse("2008-05-01T07:34:42-5:00"); // for sure?
+
         enum Activity
         {
             GettingReady,
@@ -52,7 +57,23 @@ namespace workout7
         // Constructor
         public MainPage()
         {
-            InitializeComponent();     
+            InitializeComponent();
+
+            try
+            {
+                if (IsolatedStorageSettings.ApplicationSettings.Contains("currentStreak"))
+                {
+                    streakCounter = (int)IsolatedStorageSettings.ApplicationSettings["currentStreak"];
+                }
+                else streakCounter = 0;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Cannot fetch user settings: " + e.ToString());
+#if DEBUG
+                Debug.WriteLine("Exception while loading settings: " + e.ToString());
+#endif
+            }
 
             this.exerciseNames = new string[]{
                 "jumping jacks",
@@ -224,6 +245,8 @@ namespace workout7
             this.image.Source = new BitmapImage(new Uri("Images/main.png", UriKind.Relative));
 
             this.soundBeep.Play();
+
+            UpdateStreakCounter(streakCounter + 1);
         }
 
         private void dispatcherTimer_Tick(object sender, EventArgs e)
@@ -267,6 +290,9 @@ namespace workout7
         {
             this.timerLocked = false;
             this.exerciseIndex = 0;
+#if DEBUG 
+            this.exerciseIndex = 11;
+#endif
             this.currentActivity = Activity.GettingReady;
             this.NextActivity();
         }
@@ -291,6 +317,21 @@ namespace workout7
                 {
                     ShareHelper.ShareViaSocialMedia();
                 })).Show();
+        }
+
+        private void UpdateStreakCounter(int val)
+        {
+            if (!IsolatedStorageSettings.ApplicationSettings.Contains("currentStreak"))
+            {
+                IsolatedStorageSettings.ApplicationSettings.Add("currentStreak", streakCounter);
+                IsolatedStorageSettings.ApplicationSettings.Add("recentWorkoutDay", new DateTimeOffset(DateTime.Today));
+            }
+            else
+                IsolatedStorageSettings.ApplicationSettings["currentStreak"] = val;
+
+            IsolatedStorageSettings.ApplicationSettings.Save();
+
+            TileManager.UpdatePrimaryTile(val);
         }
     }
 }
