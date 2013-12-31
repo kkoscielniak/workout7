@@ -12,12 +12,27 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Microsoft.Phone.Marketplace;
 using workout7.Helpers;
 
 namespace workout7
 {
     public partial class App : Application
     {
+        /// <summary>
+        /// used to check License
+        /// </summary>
+        private static LicenseInformation licenseInfo = new LicenseInformation();
+
+        private static bool isTrial = true;
+        public bool IsTrial
+        {
+            get
+            {
+                return isTrial;
+            }
+        }
+
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
@@ -66,18 +81,26 @@ namespace workout7
         // This code will not execute when the application is reactivated
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+            CheckLicense();
+
             FeedbackHelper.Default.Launching();
             TileManager.UpdatePrimaryTile(0);
         }
 
-        // Code to execute when the application is activated (brought to foreground)
-        // This code will not execute when the application is first launched
+        
+        
+        /// <summary>
+        /// Code to execute when the application is activated (brought to foreground). 
+        /// This code will not execute when the application is first launched
+        /// </summary>
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
             if (!e.IsApplicationInstancePreserved)
             {
                 // restore application state
             }
+
+            CheckLicense();
         }
 
         // Code to execute when the application is deactivated (sent to background)
@@ -112,8 +135,6 @@ namespace workout7
             }
         }
 
-        
-
         #region Phone application initialization
 
         // Avoid double-initialization
@@ -146,6 +167,32 @@ namespace workout7
 
             // Remove this handler since it is no longer needed
             RootFrame.Navigated -= CompleteInitializePhoneApplication;
+        }
+
+        #endregion
+
+        #region methods
+
+        /// <summary>
+        /// checks license and saves result in isTrial
+        /// when in DEBUG, we can choose whether version is trial or full. 
+        /// </summary>
+        private void CheckLicense()
+        {
+#if DEBUG
+            string message = "Press 'OK' to simulate trial mode. Press 'Cancel' to run the application in normal mode.";
+            if (MessageBox.Show(message, "Debug Trial",
+                 MessageBoxButton.OKCancel) == MessageBoxResult.OK)
+            {
+                isTrial = true;
+            }
+            else
+            {
+                isTrial = false;
+            }
+#else
+            isTrial = licenseInfo.IsTrial();
+#endif
         }
 
         #endregion

@@ -10,13 +10,15 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using ScottIsAFool.WindowsPhone.Tools;
 using workout7.Helpers;
-using System.IO.IsolatedStorage;
 using System.Diagnostics;
+using Microsoft.Phone.Tasks;
 
 namespace workout7
 {
     public partial class MainPage : PhoneApplicationPage
     {
+        MarketplaceDetailTask marketplaceDetailTask = new MarketplaceDetailTask();
+
         private const int TOTAL_EXERCISES = 12;
 
         private TimeSpan timeSpan;
@@ -280,9 +282,6 @@ namespace workout7
         {
             this.timerLocked = false;
             this.exerciseIndex = 0;
-#if DEBUG 
-            this.exerciseIndex = 11;
-#endif
             this.currentActivity = Activity.GettingReady;
             this.NextActivity();
         }
@@ -290,6 +289,71 @@ namespace workout7
         private void aboutMenuBarClick(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/About.xaml", UriKind.Relative));
+        }
+
+        
+
+        private void UpdateStreakCounter(int val)
+        {
+            SettingsHelper.CurrentStreak = val;
+            TileManager.UpdatePrimaryTile(val);
+        }
+
+        // the code is very messy right now - this region is only the beginning of cleaning :(
+        #region methods
+
+        /// <summary>
+        /// on each navigation to the page there is need to check license and modify the page depending on the license
+        /// </summary>
+        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+
+            if ((Application.Current as App).IsTrial)
+            {
+                adDuplexAd.Visibility = Visibility.Visible;
+                             
+            }
+            else
+            {
+                adDuplexAd.Visibility = Visibility.Collapsed;
+                UpdateApplicationBar();   
+            }
+        }
+
+        /// <summary>
+        /// used to show or hide 'Support me' button depending on trial/full version of application
+        /// </summary>
+        private void UpdateApplicationBar()
+        {
+            /* It's in try-catch block, because it can raise an exception when we try to remove
+             * the button when it is already removed. */
+            try
+            {
+
+                ApplicationBarIconButton supportMeButton = ApplicationBar.Buttons[1]
+                    as ApplicationBarIconButton;    // 'support me' button's index is 1
+
+                if (!(Application.Current as App).IsTrial)
+                {
+                    ApplicationBar.Buttons.Remove(supportMeButton);
+                }
+            }
+            catch (Exception e)
+            {
+#if DEBUG
+                Debug.WriteLine(e.ToString());
+#endif
+            }
+        }
+
+        #endregion
+        #region ui methods (events)
+
+        private void SupportMeButton_Click(object sender, EventArgs e)
+        {
+            marketplaceDetailTask.Show();
+
         }
 
         private void SpreadTheLove_Click(object sender, EventArgs e)
@@ -309,10 +373,6 @@ namespace workout7
                 })).Show();
         }
 
-        private void UpdateStreakCounter(int val)
-        {
-            SettingsHelper.CurrentStreak = val;
-            TileManager.UpdatePrimaryTile(val);
-        }
+        #endregion
     }
 }

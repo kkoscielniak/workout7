@@ -42,7 +42,17 @@
 
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar BackgroundColor="Green" IsVisible="True" IsMenuEnabled="True" ForegroundColor="White">
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar.timer.play.png" Text="Begin workout" Click="appbarStartWorkoutClick"/>
+            <shell:ApplicationBarIconButton 
+                Text="Begin workout" 
+                IconUri="/Images/appbar.timer.play.png"
+                Click="appbarStartWorkoutClick"
+                />
+            <shell:ApplicationBarIconButton 
+                x:Name="supportMeButton"
+                Text="support me!" 
+                IconUri="/Images/appbar.marketplace.png"
+                Click="SupportMeButton_Click"
+                />
             <shell:ApplicationBar.MenuItems>
                 <shell:ApplicationBarMenuItem Text="Spread the love..." Click="SpreadTheLove_Click"/>
                 <shell:ApplicationBarMenuItem Text="About" Click="aboutMenuBarClick"/>
