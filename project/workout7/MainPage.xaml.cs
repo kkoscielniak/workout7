@@ -311,8 +311,7 @@ namespace workout7
 
             if ((Application.Current as App).IsTrial)
             {
-                adDuplexAd.Visibility = Visibility.Visible;
-                             
+                adDuplexAd.Visibility = Visibility.Visible;                             
             }
             else
             {
